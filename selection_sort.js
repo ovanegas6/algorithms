@@ -19,7 +19,8 @@ function selectionSort(arr) {
   
   for (let k = 0; k < length; k++) {
     let smallest = findSmallest(arr);
-    newArr.push(arr.splice(smallest, 1));
+    let item = arr.splice(smallest, 1)
+    newArr.push(item[0]);
   }
   return newArr;
 }
