@@ -5,8 +5,8 @@ function findSmallest(arr) {
   
   for (let j = 1; j < arr.length; j++) {
     if (arr[j] < smallest) {
-      smallest = arr[j];// 0
-      smallestIndex = j;// 1
+      smallest = arr[j];
+      smallestIndex = j;
     } 
   }
   return smallestIndex;
